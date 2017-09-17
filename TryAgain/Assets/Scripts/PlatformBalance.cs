@@ -6,10 +6,11 @@ public class PlatformBalance : MonoBehaviour {
 
 	public Transform leftCtrl;
 	public Transform rightCtrl;
+	Camera c;
 
 	// Use this for initialization
 	void Start () {
-		
+		c = Camera.main;
 	}
 	
 	// Update is called once per frame
@@ -50,29 +51,72 @@ public class PlatformBalance : MonoBehaviour {
 		else if (Input.GetKey (KeyCode.M)) {
 			rightHeight -= 0.3f;
 		}
+		
+		/*
+		if (Input.GetMouseButton (0)) 
+		{
+			Vector3 pp = c.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+			Debug.Log(Input.mousePosition);
+			Debug.Log(pp);
+			if (Input.mousePosition.x < Screen.width / 3)
+			{
+				Vector3 p = c.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+				leftHeight = p.y;
+			}
+			else if (Input.mousePosition.x > Screen.width * 2 / 3)
+			{
+				Vector3 p = c.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+				rightHeight = p.y;
+			}
+		}
+		*/
 		#endif
 
 
+
 		#if !UNITY_EDITOR
-
-		Touch touch0 = Input.GetTouch(0);
-		Vector2 deltaPosition = touch0.deltaPosition;
-
-		//float rotX = deltaPosition.x * Mathf.Deg2Rad;
-
-		//Vector3 playerScreenPos = _camera.WorldToScreenPoint(transform.position);
-		/*
-		if (Input.mousePosition.y >= playerScreenPos.y)
+		if (Input.touchCount == 1) 
 		{
-		transform.RotateAround(Vector3.up, -rotX);
-		} 
-		else
+			Touch touch0 = Input.GetTouch(0);
+			if (touch0.position.x < Screen.width / 3)
+			{
+		        Vector3 p = c.ScreenToWorldPoint(new Vector3(touch0.position.x, touch0.position.y, 10));
+				leftHeight = p.y;
+			}
+			else if (touch0.position.x > Screen.width * 2 / 3)
+			{
+		        Vector3 p = c.ScreenToWorldPoint(new Vector3(touch0.position.x, touch0.position.y, 10));
+				rightHeight = p.y;
+			}
+		}
+
+		if (Input.touchCount == 2) 
 		{
-		transform.RotateAround(Vector3.up, rotX);
+			Touch touch0 = Input.GetTouch(0);
+			if (touch0.position.x < Screen.width / 3)
+			{
+		        Vector3 p = c.ScreenToWorldPoint(new Vector3(touch0.position.x, touch0.position.y, 10));
+				leftHeight = p.y;
+			}
+			else if (touch0.position.x > Screen.width * 2 / 3)
+			{
+		        Vector3 p = c.ScreenToWorldPoint(new Vector3(touch0.position.x, touch0.position.y, 10));
+				rightHeight = p.y;
+			}
+
+			Touch touch1 = Input.GetTouch(1);
+			if (touch1.position.x < Screen.width / 3)
+			{
+				Vector3 p = c.ScreenToWorldPoint(new Vector3(touch1.position.x, touch1.position.y, 10));
+				leftHeight = p.y;
+			}
+			else if (touch1.position.x > Screen.width * 2 / 3)
+			{
+				Vector3 p = c.ScreenToWorldPoint(new Vector3(touch1.position.x, touch1.position.y, 10));
+				rightHeight = p.y;
+			}
+
 		}
-		}
-		*/
-		leftHeight += deltaPosition.y;
 
 		#endif
 

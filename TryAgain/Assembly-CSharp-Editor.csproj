@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR;ENABLE_DUCK_TYPING</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -46,27 +46,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\About.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\AmplifyColorEffectEditor.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\AmplifyColorEffectEditorBase.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\AmplifyColorVolumeEditor.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\AmplifyColorVolumeEditorBase.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\BackBufferHandler.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\CameraCollection.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\EncryptDecrypt.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\FileHandler.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\ImageResult.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\LUTEditor.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\LUTResult.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\LUTSettings.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\LUTWriter.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\PhotoshopConnection.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\PhotoshopEncryptDecrypt.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\PhotoshopHandler.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\PhotoshopProtocol.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\PhotoshopTouchHelper.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\ResolutionSettings.cs" />
-     <Compile Include="Assets\ExternalAssets\AmplifyColor\Plugins\Editor\ToolSettings.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\About.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorEffectEditor.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorEffectEditorBase.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorVolumeEditor.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorVolumeEditorBase.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\BackBufferHandler.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\CameraCollection.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\EncryptDecrypt.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\FileHandler.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\ImageResult.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTEditor.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTResult.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTSettings.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTWriter.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopConnection.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopEncryptDecrypt.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopHandler.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopProtocol.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopTouchHelper.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\ResolutionSettings.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\Editor\ToolSettings.cs" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
@@ -75,7 +75,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\MaskBlend.shader" />
+     <None Include="Assets\AmplifyColor\Resources\MaskBlend.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
@@ -92,13 +92,13 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\ExternalAssets\StylizedWater\Changelog.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\Blend.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\BlendCache.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\Mask.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Blend.shader" />
+     <None Include="Assets\AmplifyColor\Resources\BlendCache.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Mask.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Samples\Check out the full LUT Package.txt" />
+     <None Include="Assets\AmplifyColor\Samples\Check out the full LUT Package.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Readme.txt" />
+     <None Include="Assets\AmplifyColor\Readme.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
@@ -108,7 +108,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\ProcessOnly.shader" />
+     <None Include="Assets\AmplifyColor\Resources\ProcessOnly.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
@@ -116,10 +116,10 @@
      <None Include="Assets\ExternalAssets\StylizedWater\Shaders\StylizedWater_mobile_basic.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\ExternalAssets\StylizedWater\Shaders\StylizedWater_desktop.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\DepthMask.shader" />
+     <None Include="Assets\AmplifyColor\Resources\DepthMask.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\Common.cginc" />
+     <None Include="Assets\AmplifyColor\Resources\Common.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
@@ -131,8 +131,8 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\DepthMaskBlend.shader" />
-     <None Include="Assets\ExternalAssets\AmplifyColor\Resources\Base.shader" />
+     <None Include="Assets\AmplifyColor\Resources\DepthMaskBlend.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Base.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -211,10 +211,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="AmplifyColor">
- <HintPath>/Users/sxu/UnityWorkSpace/TryAgain/Assets/ExternalAssets/AmplifyColor/Plugins/AmplifyColor.dll</HintPath>
+ <HintPath>/Users/sxu/TryAgain/TryAgain/TryAgain/Assets/AmplifyColor/Plugins/AmplifyColor.dll</HintPath>
  </Reference>
  <Reference Include="AmplifyColorEditor">
- <HintPath>/Users/sxu/UnityWorkSpace/TryAgain/Assets/ExternalAssets/AmplifyColor/Plugins/Editor/AmplifyColorEditor.dll</HintPath>
+ <HintPath>/Users/sxu/TryAgain/TryAgain/TryAgain/Assets/AmplifyColor/Plugins/Editor/AmplifyColorEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
