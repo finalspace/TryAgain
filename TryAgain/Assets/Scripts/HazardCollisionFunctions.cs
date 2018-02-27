@@ -32,7 +32,7 @@ public class HazardCollisionFunctions : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "Platform") 
+		if (collision.gameObject.tag == "Platform" || collision.gameObject.tag == "CtrlPlatform") 
 		{
 			Destroy (Instantiate (hazardDustParticles.gameObject, transform.position, Quaternion.identity), hazardDustParticles.startLifetime);
 			this.gameObject.SetActive (false);

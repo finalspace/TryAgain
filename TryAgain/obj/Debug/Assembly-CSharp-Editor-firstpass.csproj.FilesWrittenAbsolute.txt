@@ -84,3 +84,17 @@
 /Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
 /Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
 /Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEditor.Timeline.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEditor.UIAutomation.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEditor.SpatialTracking.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Cecil.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Cecil.Mdb.dll

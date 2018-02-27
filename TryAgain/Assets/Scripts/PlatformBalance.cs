@@ -4,22 +4,39 @@ using UnityEngine;
 
 public class PlatformBalance : MonoBehaviour {
 
+	public Rigidbody rb;
 	public Transform leftCtrl;
 	public Transform rightCtrl;
+
+	public Vector3 debugSpeed;
+
 	Camera c;
+	Vector3 lastPos;
+	Vector3 vel;
 
 	// Use this for initialization
 	void Start () {
 		c = Camera.main;
+		lastPos = transform.position;
+		vel = Vector3.zero;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update1 () {
+		float speed = ((transform.position - lastPos) / Time.deltaTime).y;
+		lastPos = transform.position;
+		vel = transform.up * speed;
+		//Debug.Log(vel);
 	}
 
-	void FixedUpdate () 
+	public Vector3 GetVel()
 	{
+		return vel;
+	}
+
+    void Update () 
+	{
+		debugSpeed = rb.velocity;
 		/*
 		float newZ = transform.eulerAngles.z;
 		if (newZ > 330)
@@ -120,9 +137,9 @@ public class PlatformBalance : MonoBehaviour {
 
 		#endif
 
-		leftHeight = Mathf.Min (leftHeight, 3);
+		leftHeight = Mathf.Min (leftHeight, 4);
 		leftHeight = Mathf.Max (leftHeight, 1);
-		rightHeight = Mathf.Min (rightHeight, 3);
+		rightHeight = Mathf.Min (rightHeight, 4);
 		rightHeight = Mathf.Max (rightHeight, 1);
 		leftCtrl.position = new Vector3 (leftCtrl.position.x, leftHeight, leftCtrl.position.z);
 		rightCtrl.position = new Vector3 (rightCtrl.position.x, rightHeight, rightCtrl.position.z);
@@ -137,6 +154,9 @@ public class PlatformBalance : MonoBehaviour {
 		Debug.DrawLine (p1, p2, Color.red);
 
 		transform.eulerAngles = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y, -normalNormalized.x * 50);
-		transform.position = new Vector3 (transform.position.x, p1.y, transform.position.z);
+		//transform.position = new Vector3 (transform.position.x, p1.y, transform.position.z);
+
+		rb.MovePosition (new Vector3 (transform.position.x, p1.y, transform.position.z));
+
 	}
 }

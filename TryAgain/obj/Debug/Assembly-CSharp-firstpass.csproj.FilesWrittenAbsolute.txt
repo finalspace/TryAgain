@@ -44,3 +44,13 @@
 /Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Cecil.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/sxu/TryAgain/TryAgain/TryAgain/Temp/bin/Debug/Unity.Cecil.Mdb.dll
